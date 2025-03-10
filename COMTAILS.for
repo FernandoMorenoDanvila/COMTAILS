@@ -113,15 +113,6 @@ C READ INPUT FILE: dm/dt(t), vfactor(t), power(t), rmin(t), rmax(t):
         STOP ' Too many input values:INCREASE NINPUTSMAX (ninputs.inc) '
  50     CLOSE(10)
         NINPUTS=II-1
-C INITIALIZE ARRAY OF FLUXES AND OPTICAL DEPTH:
-         DO II=1,NX
-            DO JJ=1,NY
-               FLUX(II,JJ)=0
-               OPT_DEPTH(II,JJ)=0
-               FLUX_STAR(II,JJ)=0
-            ENDDO
-         ENDDO
-         OPT_DEPTH_NUC=0
             
         
 C --- SOME USEFUL CONSTANTS:
@@ -179,6 +170,17 @@ C FIRST LINE IS THE OBJECT IDENTIFICATION CODE (REC # in JPL-HORIZONS):
          READ (1,*) IGRAPHO,PCP      ! IGRAPHO=1, open interactive graphics output, PCP is the percent of particles to be plotted
          CLOSE(1)
          
+C INITIALIZE ARRAY OF FLUXES AND OPTICAL DEPTH:
+         DO II=1,NX
+            DO JJ=1,NY
+               FLUX(II,JJ)=0
+               OPT_DEPTH(II,JJ)=0
+               FLUX_STAR(II,JJ)=0
+            ENDDO
+         ENDDO
+         OPT_DEPTH_NUC=0
+
+
          PCP=1.D0-PCP/100.D0
          
          IF (NX.GT.NXMAX.OR.NY.GT.NYMAX)
