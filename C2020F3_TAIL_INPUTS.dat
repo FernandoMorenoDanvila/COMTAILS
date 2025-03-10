@@ -1,4 +1,4 @@
-90004575       ! Target Rec # (JPL-Horizons web-based system)
+90004575       ! Target Rec # --ALWAYS CHECK THIS NUMBER WITH JPL-HORIZONS SYSTEM, AS IT MAY CHANGE FOR THE DESIRED TARGET --
 1000.D0        ! Particle density (kg m**-3)
 0.04D0,0.033D0 ! Particle geometric albedo, phase coeff (vestige)
 3              ! Ejection mode: 1-->Isotropic; 2-->Sunward; 3-->Active area     
