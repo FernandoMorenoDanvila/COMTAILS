@@ -5,3 +5,5 @@
 ### A manual describing the input files, compilation instructions, and example executions can be found in file COMTAILS.pdf, in the mentioned subdirectory. 
 ##  IMPORTANT: ALWAYS CHECK THE INPUT # Rec (with the JPL-Horizons system) IN FILE TAIL_INPUTS.dat, AS IT MAY CHANGE EVENTUALLY FOR THE DESIRED TARGET
 ### The code is described in Moreno (2025), A&A, 695, 263.
+### Updated versions will be uploaded regularly. Please visit this platform for updates.
+### Questions, bugs: send e-mail to fernando at iaa.es
