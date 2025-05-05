@@ -5,6 +5,6 @@
 ### Example command to compile this parallel version:  
 ### mpif77 -fallow-argument-mismatch -o COMTAILS_PAR.exe COMTAILS_PAR.for heliorbit.for -L/usr/local/pgplot64 -lpgplot -/usr/X11R6/lib64 -LX11 -L. -lcfitsio -lm
 ### And to run the code: mpirun -np 8 ./COMTAILS_PAR.exe, where 8 is the number of available slots in your system.
-### A manual describing the input files, compilation instructions, and example executions can be found in file COMTAILS.pdf. 
+### A manual describing the input files, compilation instructions, and example executions can be found in file COMTAILS.pdf (in the main files). 
 ## IMPORTANT:ALWAYS CHECK THE INPUT # Rec (with the JPL-Horizons system) IN FILE TAIL_INPUTS.dat, AS IT MAY CHANGE EVENTUALLY FOR THE DESIRED TARGET
 ### The code is described in Moreno,F., Astronomy and Astrophysics, 695, 263 (2025) 
