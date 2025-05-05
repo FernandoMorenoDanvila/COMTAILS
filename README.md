@@ -7,4 +7,4 @@
 ### And to run the code: mpirun -np 8 ./COMTAILS_PAR.exe, where 8 is the number of available slots in your system.
 ### A manual describing the input files, compilation instructions, and example executions can be found in file Manual_COMTAILS.pdf (in the main files). 
 ## IMPORTANT:ALWAYS CHECK THE INPUT # Rec (with the JPL-Horizons system) IN FILE TAIL_INPUTS.dat, AS IT MAY CHANGE EVENTUALLY FOR THE DESIRED TARGET
-### The code is described in Moreno,F., Astronomy and Astrophysics, 695, 263 (2025) 
+### The code is described in Moreno, F., Astronomy and Astrophysics, 695, 263 (2025) 
