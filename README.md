@@ -2,6 +2,6 @@
 ### This FORTRAN serial code is created by **Fernando Moreno**, (fernando at iaa.es) of the Instituto de Astrofísica de Andalucía, CSIC, Granada, Spain.
 ### It is desgined to generate synthetic dust tail images from comets and active asteroids.
 ### It is easily compiled with GNU free compiler gfortran on Linux stations. FITSIO and PGPLOT libraries must be installed on the system.
-### A manual describing the input files, compilation instructions, and example executions can be found in file COMTAILS.pdf. 
+### A manual describing the input files, compilation instructions, and example executions can be found in file Manual_COMTAILS.pdf in the main directory. 
 ## IMPORTANT:ALWAYS CHECK THE INPUT # Rec (with the JPL-Horizons system) IN FILE TAIL_INPUTS.dat, AS IT MAY CHANGE EVENTUALLY FOR THE DESIRED TARGET
 ### The code is described in Moreno,F., Astronomy and Astrophysics, 695, 263 (2025) 
