@@ -67,9 +67,9 @@ The original COMTAILS code, described in Moreno (2025), is still available:
 - FORTRAN MPI version: branch [`FORTRAN_PARALLEL`](https://github.com/FernandoMorenoDanvila/COMTAILS/tree/FORTRAN_PARALLEL)
 - Python version: repository [py_COMTAILS](https://github.com/FernandoMorenoDanvila/py_COMTAILS)
 
-## IMPORTANT NOTE: 
+## IMPORTANT NOTE ON EARLIER VERSION: 
 In the previous version of the code, the optical depth was overestimated by a
-factor NEVENT, the number of directional Monte Carlo events. Each
+factor $N_\mathrm{ev}$, the number of directional Monte Carlo events. Each
 directional sample represents $N_\mathrm{bin}/N_\mathrm{ev}$ real particles of
 its size bin, a weight that was correctly applied to the scattered flux but
 omitted in the computation of the optical depth. 
