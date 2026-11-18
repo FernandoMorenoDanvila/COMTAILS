@@ -75,7 +75,7 @@ its size bin, a weight that was correctly applied to the scattered flux but
 omitted in the computation of the optical depth. 
 
 Also, in the previous version of the code, the file
-  \texttt{nm.dat}, which gives the sky-plane coordinates, radius and ejection
+  $\mathrm{nm.dat}$, which gives the sky-plane coordinates, radius and ejection
   time of every Monte Carlo particle, contained only part of the particles,
   because it was written by a single process.
 
