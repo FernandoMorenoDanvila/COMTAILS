@@ -83,7 +83,7 @@ Also, in the previous parallel version of the code, the file
 
 If you use this code, please cite:
 
-Moreno, F. 2025, *A&A*, 695, A263, COMTAILS: a code for simulating dust tails of comets and active asteroids.
+Moreno, F. 2025, *A&A*, 695, A263, COMetary dust TAIL Simulator (COMTAILS): A computer code to generate comet dust tail brightness images
 
 ## Contact
 
