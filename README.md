@@ -1,6 +1,6 @@
 # COMTAILS-POL
 
-**COMTAILS-POL** generates synthetic images of the dust tails and comae of comets and other active small bodies (e.g. active asteroids): brightness, optical depth and the degree of linear polarization of the scattered light. It is the successor of COMTAILS.
+**COMTAILS-POL** generates synthetic images of the dust tails and comae of comets and other active small bodies (e.g. active asteroids): brightness, optical depth and the **degree of linear polarization** of the scattered light. It is the successor of COMTAILS.
 
 Author: Fernando Moreno, Instituto de Astrofísica de Andalucía (IAA-CSIC), Granada, Spain.
 
